@@ -59,9 +59,9 @@ def cpu_bilinear(img):
     return end - start
 
 if __name__ == '__main__':
-    images = ["100.bmp", "200.bmp", "240.bmp", "300.bmp", "428.bmp", "600.bmp"]
+    images = ["100.bmp", "200.bmp", "400.bmp", "600.bmp"]
 
-    mas_size = [100, 200, 240, 300, 428, 600]
+    mas_size = [100, 200, 400, 600]
     array_time_CPU = []
     array_time_GPU = []
     acel = []
